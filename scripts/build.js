@@ -152,4 +152,6 @@ function testBinary(options) {
  * Apply arguments and run
  */
 
+console.log('ZZZ npm_config_sass_binary_cache = ' + process.env.npm_config_sass_binary_cache);
+console.log('ZZZ npm_config_cache = ' + process.env.npm_config_cache);
 testBinary(parseArgs(process.argv.slice(2)));

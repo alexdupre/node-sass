@@ -155,3 +155,6 @@ function checkAndDownloadBinary() {
  */
 
 checkAndDownloadBinary();
+
+console.log('XXX npm_config_sass_binary_cache = ' + process.env.npm_config_sass_binary_cache);
+console.log('XXX npm_config_cache = ' + process.env.npm_config_cache);
